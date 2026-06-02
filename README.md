@@ -1,6 +1,6 @@
 # react-native-data-detector
 
-[![npm version](https://img.shields.io/npm/v/@themobilefirstcompany/react-native-data-detector)](https://www.npmjs.com/package/@themobilefirstcompany/react-native-data-detector)
+[![npm version](https://img.shields.io/npm/v/react-native-data-detector)](https://www.npmjs.com/package/react-native-data-detector)
 
 Cross-platform text data detection for React Native. Uses **NSDataDetector** on iOS and **ML Kit Entity Extraction** on Android to detect phone numbers, URLs, emails, dates, and addresses — returning structured results to JavaScript.
 
@@ -21,7 +21,7 @@ Cross-platform text data detection for React Native. Uses **NSDataDetector** on 
 ## Installation
 
 ```bash
-npm install @themobilefirstcompany/react-native-data-detector
+npm install react-native-data-detector
 ```
 
 ### iOS
@@ -37,7 +37,7 @@ The ML Kit entity extraction model (~5.6MB) is downloaded on the user's device a
 ## Usage
 
 ```typescript
-import { detect, downloadModel } from '@themobilefirstcompany/react-native-data-detector';
+import { detect, downloadModel } from 'react-native-data-detector';
 
 // Pre-download the ML Kit model at app startup (Android only, no-op on iOS)
 await downloadModel();

@@ -80,4 +80,4 @@ This project is governed by the [Contributor Covenant Code of Conduct](CODE_OF_C
 
 ## Reporting Bugs & Requesting Features
 
-Please use the [issue templates](https://github.com/themobilefirstco/react-native-data-detector/issues/new/choose) when opening an issue.
+Please use the [issue templates](https://github.com/pablogdcr/react-native-data-detector/issues/new/choose) when opening an issue.

@@ -16,7 +16,7 @@ import {
   downloadModel,
   type DetectedEntity,
   type DetectionType,
-} from '@themobilefirstcompany/react-native-data-detector';
+} from 'react-native-data-detector';
 
 const SAMPLE_TEXT =
   'Call me at (555) 123-4567 or email john@example.com.\n' +
