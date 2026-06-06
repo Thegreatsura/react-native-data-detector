@@ -213,7 +213,9 @@ Each language is a separate ~5.6MB on-device model, downloaded on demand.
 ## Requirements
 
 - iOS 15.1+
-- Android API 24+ (minSdk)
+- Android API 26+ (minSdk) — required by ML Kit Entity Extraction. Set
+  `minSdkVersion = 26` (or higher) in your app; with Expo, use
+  [`expo-build-properties`](https://docs.expo.dev/versions/latest/sdk/build-properties/).
 - Expo SDK 50+ or bare React Native with `expo-modules-core`
 
 ## Contributing
