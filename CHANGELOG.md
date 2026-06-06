@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-06-06
+
 ### Added
 
 - `useDetectedEntities(text, options?)` hook — reactive, debounced detection of a
@@ -49,5 +51,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial public release: cross-platform text data detection using
   `NSDataDetector` on iOS and ML Kit Entity Extraction on Android.
 
-[Unreleased]: https://github.com/pablogdcr/react-native-data-detector/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/pablogdcr/react-native-data-detector/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/pablogdcr/react-native-data-detector/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/pablogdcr/react-native-data-detector/releases/tag/v0.2.0
